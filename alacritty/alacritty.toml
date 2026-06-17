@@ -1,0 +1,44 @@
+# $HOME/.config/alacritty/alacritty.toml
+# Updated by Gemini 2026-05-05
+
+[window]
+opacity = 0.9
+padding.x = 10
+padding.y = 10
+decorations = "Full"
+decorations_theme_variant = "Dark" # Changed to Dark to match the colors below
+
+[font.normal]
+family = "Atkinson Hyperelegible Mono"
+style = "monospace"
+[font]
+size = 12.5
+
+#
+#[colors.primary]
+#background = "#1e222a"
+#foreground = "#abb2bf"
+#
+#[colors.cursor]
+#text = "#1e222a"
+#cursor = "#528bff"
+#
+#[colors.normal]
+#black   = "#1e222a"
+#red     = "#e06c75"
+#green   = "#98c379"
+#yellow  = "#d19a66"
+#blue    = "#61afef"
+#magenta = "#c678dd"
+#cyan    = "#56b6c2"
+#white   = "#abb2bf"
+#
+#[colors.bright]
+#black   = "#545862"
+#red     = "#e06c75"
+#green   = "#98c379"
+#yellow  = "#d19a66"
+#blue    = "#61afef"
+#magenta = "#c678dd"
+#cyan    = "#56b6c2"
+#white   = "#c8ccd4"

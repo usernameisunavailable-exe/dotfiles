@@ -1,0 +1,40 @@
+close_when_open = true          # Close if invoked while already open
+click_to_close = true           # Close when clicking outside content area
+selection_wrap = true # Wrap list navigation at top/bottom
+theme = "dark"
+global_argument_delimiter = "#"     # Delimiter for passing arguments
+                                    # Example: firefox#https://example.com
+                                    # Part after # is passed as argument
+
+exact_search_prefix = "'"           # Prefix to disable fuzzy search
+                                    # Example: 'firefox will match exactly
+[placeholders]
+# Default placeholder for all providers
+"default" = { input = "Search programs and stuff..", list = "No Results" }
+
+# Provider-specific placeholders
+"desktopapplications" = { input = "Launch App", list = "No Applications" }
+"files" = { input = "Browse Files", list = "No Files Found" }
+"calc" = { input = "Calculate", list = """
+I humbly petition that you utilize the interface provided to input, transcribe,
+or otherwise manifest a specific sequence of symbolic representations, numerical
+constants, and operational variables—collectively and universally recognized by
+the scientific community as a mathematical expression.
+""" }
+"runner" = { input = "Run Command", list = "No Commands" }
+#"websearch" = { input = "Search Web", list = "" }
+"clipboard" = { input = "Clipboard", list = "Clipboard Empty" }
+#"symbols" = { input = "Symbol", list = "No Symbols" }
+#"todo" = { input = "Todo", list = "No Todos" }
+
+[providers]
+# Providers queried by default (when no prefix used)
+default = [
+  "desktopapplications",
+  "calc",
+  "runner",
+  "menus",
+#  "websearch",
+]
+
+
