@@ -1,0 +1,23 @@
+# stop printing a blank empty line between commands
+add_newline = false
+
+# disable the line break so the cursor sits on the same line as the text
+[line_break]
+disabled = true
+
+# hide the python version and snake icon entirely
+[python]
+disabled = true
+
+[username]
+show_always = true
+style_user = "bold cyan" 
+format = "[$user]($style)@"
+
+[hostname]
+ssh_only = false
+style = "bold white" 
+format = "[$hostname]($style) "
+
+[directory]
+style = "bold blue"

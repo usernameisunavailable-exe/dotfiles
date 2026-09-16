@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1785246062566381-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Unrar</name>
+	<submenu></submenu>
+	<unique-id>1785667217615012-1</unique-id>
+	<command>unrar x $n</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*.rar</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>unzip</name>
+	<submenu></submenu>
+	<unique-id>1785715697611120-1</unique-id>
+	<command>unzip %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*.zip</patterns>
+	<other-files/>
+</action>
+</actions>

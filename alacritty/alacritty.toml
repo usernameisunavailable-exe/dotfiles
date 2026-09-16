@@ -1,5 +1,4 @@
 # $HOME/.config/alacritty/alacritty.toml
-# Updated by Gemini 2026-05-05
 
 [window]
 opacity = 0.9
@@ -13,32 +12,18 @@ family = "Atkinson Hyperelegible Mono"
 style = "monospace"
 [font]
 size = 12.5
+# (leave your font and window settings up here as they are)
 
-#
 #[colors.primary]
-#background = "#1e222a"
-#foreground = "#abb2bf"
-#
-#[colors.cursor]
-#text = "#1e222a"
-#cursor = "#528bff"
-#
-#[colors.normal]
-#black   = "#1e222a"
-#red     = "#e06c75"
-#green   = "#98c379"
-#yellow  = "#d19a66"
-#blue    = "#61afef"
-#magenta = "#c678dd"
-#cyan    = "#56b6c2"
-#white   = "#abb2bf"
-#
-#[colors.bright]
-#black   = "#545862"
-#red     = "#e06c75"
-#green   = "#98c379"
-#yellow  = "#d19a66"
-#blue    = "#61afef"
-#magenta = "#c678dd"
-#cyan    = "#56b6c2"
-#white   = "#c8ccd4"
+#background = "#1e1e2e" # just an example dark background
+#foreground = "#cdd6f4" # your main text color
+
+[colors.normal]
+black   = "#111111"
+red     = "#d35c5c" # rich crimson, not highlighter red
+green   = "#56b666" # solid grass green, less radioactive
+yellow  = "#d8a657" # warm gold instead of faded easter egg yellow
+blue    = "#4a88c7" # strong ocean blue
+magenta = "#ad74cc" # deep violet
+cyan    = "#16a9a0" # your custom teal!
+white   = "#cccccc" # clean, soft white
