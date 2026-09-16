@@ -1,0 +1,14 @@
+return {}
+-- return {
+--   {
+--     "shatur/neovim-ayu",
+--     lazy = false,
+--     priority = 1000,
+--     config = function()
+--       require("ayu").setup({
+--         mirage = false, -- set to false for dark/light variants
+--       })
+--       vim.cmd("colorscheme ayu")
+--     end,
+--   },
+-- }
